@@ -63,7 +63,7 @@ def convimg(name, colorlist):
         colorArray.append("TS_16b_Black")
         print("Too few colors provided. Adding black to the list of colors.")
     
-    print("Colors Used: " + str("colorArray"))
+    print("Colors Used: " + str(colorArray))
     
     colors = sorted(colors, key=lambda c: c[0] + c[1] + c[2]) # Sorts image colors by brightness
     
